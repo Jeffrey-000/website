@@ -7,7 +7,7 @@ import EducatonAndExperiences from "@/components/EducationAndExperiences";
 
 export default function Home() {
     return (
-        <div className="container flex flex-col w-full items-center m-4 max-w-[100vw] ">
+        <div className="container flex flex-col w-full items-center max-w-[100vw] ">
             <Hero />
             <About />
             <Skills />
