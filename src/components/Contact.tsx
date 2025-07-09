@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
-import { Github, Mail, Linkedin } from "lucide-react";
+import { Mail, Linkedin } from "lucide-react";
 import { EMAIL, LINKEDIN } from "./Globals";
 
 export default function Contact() {
@@ -11,9 +11,9 @@ export default function Contact() {
                     <div className="max-w-2xl mx-auto text-center space-y-6">
                         <h2 className="text-3xl font-bold">Get In Touch</h2>
                         <p className="text-muted-foreground">
-                            I'm currently looking for new opportunities. Whether
-                            you have a question or just want to say hi, I'll try
-                            my best to get back to you!
+                            I&apos;m currently looking for new opportunities.
+                            Whether you have a question or just want to say hi,
+                            I&apos;ll try my best to get back to you!
                         </p>
                         <div className="flex justify-center gap-4">
                             <Button asChild>
