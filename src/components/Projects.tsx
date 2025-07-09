@@ -99,8 +99,8 @@ function ProjectCard({
                     <Image
                         src={image}
                         alt={title}
-                        width={350}
-                        height={200}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 350px"
                         className="object-cover transition-all hover:scale-105"
                     />
                 </div>

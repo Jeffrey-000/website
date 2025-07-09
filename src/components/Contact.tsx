@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <>
             <section id="contact" className="py-16 ">
-                <div className="container">
+                <div className="container mx-auto">
                     <div className="max-w-2xl mx-auto text-center space-y-6">
                         <h2 className="text-3xl font-bold">Get In Touch</h2>
                         <p className="text-muted-foreground">
