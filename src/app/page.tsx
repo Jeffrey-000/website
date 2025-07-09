@@ -1,3 +1,4 @@
+import NavBar from "@/components/NavBar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
@@ -8,6 +9,8 @@ import EducatonAndExperiences from "@/components/EducationAndExperiences";
 export default function Home() {
     return (
         <div className="container flex flex-col w-full items-center max-w-[100vw] ">
+            <NavBar />
+
             <Hero />
             <About />
             <Skills />
